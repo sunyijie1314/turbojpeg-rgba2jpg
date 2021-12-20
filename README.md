@@ -1,4 +1,4 @@
-# turbojpeg-rgba2jpg
-use turbojpeg rgba to jpeg
-
-init和unint只是为了go语言正常调用，单c语言使用直接释放内存即可
+ rgba2jpg中init和unint只是为了go语言正常调用，单c语言使用直接释放内存即可，参照yuv2jpg
+ rgba2jpg在Linux下编译
+ 
+ yuv2jpg在Windows下编译
